@@ -8,6 +8,8 @@
     tools:context=".ChoiceActivity"
     tools:showIn="@layout/app_bar_choice">
 
+
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
