@@ -5,6 +5,6 @@
     <string name="nav_header_title">John Smith</string>
     <string name="nav_header_subtitle">John.smith@Fidelity.ca</string>
     <string name="nav_header_desc">Navigation header</string>
-    <string name="action_settings1">Setting 1</string>
-    <string name="action_settings2">Setting 2</string>
+    <string name="action_settings1">Edit Profile</string>
+    <string name="action_settings2">Settings</string>
 </resources>

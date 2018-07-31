@@ -90,26 +90,24 @@ public class ChoiceActivity extends AppCompatActivity
             getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new viewMarket()).commit();
         } else if (id == R.id.nav_graph) {
             getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new MyFunds()).commit();
-        } else if (id == R.id.nav_lib) {
-
         } else if (id == R.id.nav_room) {
-
+            getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new Advisor()).commit();
         } else if (id == R.id.nav_contact) {
-
+            getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new Contact()).commit();
         } else if (id == R.id.nav_settings) {
-
+            getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new Support()).commit();
         } else if (id == R.id.nav_profile) {
-
+            getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new Profile()).commit();
         } else if (id == R.id.nav_beg) {
-
-        } else if (id == R.id.nav_help) {
-
+            getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new Beg()).commit();
         } else if (id == R.id.nav_tut) {
-
+            getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new Tut()).commit();
         } else if (id == R.id.nav_news) {
-
+            getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new News()).commit();
         } else if (id == R.id.nav_home) {
             getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new Home()).commit();
+        } else if (id == R.id.nav_robo) {
+            getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new Robo()).commit();
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
