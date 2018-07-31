@@ -95,7 +95,7 @@ public class ChoiceActivity extends AppCompatActivity
         } else if (id == R.id.nav_contact) {
             getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new Contact()).commit();
         } else if (id == R.id.nav_settings) {
-            getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new Support()).commit();
+            getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new Settings()).commit();
         } else if (id == R.id.nav_profile) {
             getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new Profile()).commit();
         } else if (id == R.id.nav_beg) {
