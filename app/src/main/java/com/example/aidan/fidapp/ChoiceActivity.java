@@ -108,6 +108,8 @@ public class ChoiceActivity extends AppCompatActivity
             getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new Home()).commit();
         } else if (id == R.id.nav_robo) {
             getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new Robo()).commit();
+        } else if (id == R.id.nav_hot) {
+            getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new Hot()).commit();
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
