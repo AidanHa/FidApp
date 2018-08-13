@@ -31,7 +31,7 @@ public class ChoiceActivity extends AppCompatActivity
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Locating nearest advisor...", Snackbar.LENGTH_LONG)
+                Snackbar.make(view, "Purchasing a Fund/ETF...", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
             }
         });
@@ -86,11 +86,11 @@ public class ChoiceActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
         System.out.println(id);
-        if (id == R.id.nav_chart) {
+       /* if (id == R.id.nav_chart) {
             getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new viewMarket()).commit();
         } else if (id == R.id.nav_graph) {
             getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new MyFunds()).commit();
-        } else if (id == R.id.nav_room) {
+        } else */if (id == R.id.nav_room) {
             getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new Advisor()).commit();
         } else if (id == R.id.nav_contact) {
             getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new Contact()).commit();
@@ -102,14 +102,14 @@ public class ChoiceActivity extends AppCompatActivity
             getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new Beg()).commit();
         } else if (id == R.id.nav_tut) {
             getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new Tut()).commit();
-        } else if (id == R.id.nav_news) {
-            getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new News()).commit();
+      //  } else if (id == R.id.nav_news) {
+        //    getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new News()).commit();
         } else if (id == R.id.nav_home) {
             getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new Home()).commit();
         } else if (id == R.id.nav_robo) {
             getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new Robo()).commit();
-        } else if (id == R.id.nav_hot) {
-            getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new Hot()).commit();
+      //  } else if (id == R.id.nav_hot) {
+        //    getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new Hot()).commit();
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

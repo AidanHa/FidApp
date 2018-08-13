@@ -2,8 +2,8 @@
     <string name="app_name">FidApp</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">John Smith</string>
-    <string name="nav_header_subtitle">John.smith@Fidelity.ca</string>
+    <string name="nav_header_title">Sally Smith</string>
+    <string name="nav_header_subtitle">Sally.Smith@Fidelity.ca</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings1">Edit Profile</string>
     <string name="action_settings2">Settings</string>
